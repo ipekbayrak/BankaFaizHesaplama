@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TableRow
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="8">
+
+                    <TextView
+
+                        android:id="@+id/textView1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Anapara"
+                        android:textSize="24sp" />
+
+                    <EditText
+                        android:id="@+id/editText_AnaPara"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:text="100"
+                        android:textAlignment="textEnd"
+                        android:textSize="18sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="8">
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Faiz Oranı"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:text="%"
+                        android:textAlignment="textEnd"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/editText_FaizOrani"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.5"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:text="12"
+                        android:textAlignment="textEnd" />
+
+                    <Spinner
+                        android:id="@+id/spinner_FaizOrani"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:gravity="right" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="8">
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Vade"
+                        android:textSize="24sp" />
+
+                    <EditText
+                        android:id="@+id/editText_Vade"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:text="1"
+                        android:textAlignment="textEnd" />
+
+                    <Spinner
+                        android:id="@+id/spinner_Vade"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:gravity="right" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="8">
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Dönem"
+                        android:textSize="24sp" />
+
+                    <EditText
+                        android:id="@+id/editText_Donem"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:text="1"
+                        android:textAlignment="textEnd" />
+
+                    <Spinner
+                        android:id="@+id/spinner_Donem"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:gravity="right"
+                        android:textAlignment="gravity" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="8">
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Faiz Tutarı"
+                        android:textSize="24sp" />
+
+                    <EditText
+                        android:id="@+id/editText_FaizTutari"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5"
+                        android:editable="false"
+                        android:ems="10"
+                        android:enabled="false"
+                        android:inputType="textPersonName"
+                        android:selectAllOnFocus="false"
+                        android:singleLine="true"
+                        android:textAlignment="textEnd"
+                        android:textStyle="bold" />
+
+
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="8">
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Toplam"
+                        android:textSize="24sp" />
+
+                    <EditText
+                        android:id="@+id/editText_Toplam"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5"
+                        android:editable="false"
+                        android:ems="10"
+                        android:enabled="false"
+                        android:inputType="textPersonName"
+                        android:selectAllOnFocus="false"
+                        android:singleLine="true"
+                        android:textAlignment="textEnd"
+                        android:textStyle="bold" />
+
+                </TableRow>
+
+                <LinearLayout
+                    android:id="@+id/adsContainer"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="false"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:weightSum="8">
+
+                    <Button
+                        android:id="@+id/button_Hesapla"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:text="Hesapla"
+                        android:textSize="24sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:weightSum="8">
+
+
+                </TableRow>
+            </TableLayout>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="Merhaba. Açılış ekranında şu örneği görmektesiniz: 100 lirayı bir bankaya 1 ayda %12 faizle 1 seneliğine yatırdınız. \n\nBileşik faiz: faizi işlenen bir yatırımın yeni değeri üzerinden tekrar faizinin eklendiği bir faiz çeşididir. Vade kısmına paranızı ne kadar uzun süreliğine yatırdığınızı, dönem kısmına faizin işleneceği zaman aralığını girmelisiniz. Faiz tutarı, ana para hariç ne kadar faiz yattığını gösterir."
+                android:textAlignment="center" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
